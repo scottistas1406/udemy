@@ -16,7 +16,7 @@ if (dolphinsAverage > koalasAverage && dolphinsAverage != koalasAverage && dolph
 else if (dolphinsAverage < koalasAverage && dolphinsAverage != koalasAverage && koalasAverage >= 100) {
     console.log(`Koalas win with✨✨✨🎁 an average score of ${koalasAverage}`);
 }
-else if (dolphinsAverage == koalasAverage && koalasAverage >= minScore && dolphinsAverage >= minScore) {
+else if (dolphinsAverage == koalasAverage && koalasAverage >= minScore && dolphinsAverage >= minScore) { //more
     console.log(`Its a tie!!`)
 }
 else { console.log(`sorry no one reach the min 100 points,dolphins ${dolphinsAverage}, koalas ${koalasAverage}, `) } //consle
