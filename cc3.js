@@ -19,7 +19,7 @@ else if (dolphinsAverage < koalasAverage && dolphinsAverage != koalasAverage && 
 else if (dolphinsAverage == koalasAverage && koalasAverage >= minScore && dolphinsAverage >= minScore) { //more
     console.log(`Its a tie!!`)
 }
-else { console.log(`sorry no one reach the min 100 points,dolphins ${dolphinsAverage}, koalas ${koalasAverage}, `) } //consle
+else { console.log(`sorry no one reached the min 100 points,dolphins ${dolphinsAverage}, koalas ${koalasAverage}, `) } //consle
 
 
 
